@@ -1,0 +1,28 @@
+@import-normalize;
+
+.skill__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: 1;
+  width: 100%;
+  padding: 0 50px;
+  max-width: 1300px;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.skill-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  /* padding: 0.5em; */
+  cursor: default;
+}
