@@ -17,7 +17,6 @@ const Projects = () => {
       id="projects"
       className={`${styles.paddingY} ${styles.marginY} relative`}
     >
-      {/* <div className="absolute z-[0] w-[60%] h-[60%] -right-[52%] top-[15%] rounded-full overflow-hidden pink__gradient" /> */}
       <div
         className="flex justify-center font-medium text-left text-white text-[36px] ss:text-[48px]"
         data-aos={"fade-in"}
@@ -48,9 +47,6 @@ const Projects = () => {
         data-aos={"fade-in"}
         className="sm:hidden  absolute z-[0] w-[60%] h-[60%] -right-[52%] top-[15%] rounded-full overflow-hidden white__gradient "
       />
-      {/* <div>
-        <div className="absolute display-relative z-[0] w-[30%] h-[35%] pink__gradient" />
-      </div> */}
     </section>
   );
 };
